@@ -1,0 +1,129 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(255, 255, 255, 0.459);
+  overflow: hidden;
+   width: 100%;
+    padding: 27px 0px 40px 0px;
+  }
+
+  .container {
+   padding: 1px;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 8px 20px 6px black;
+    -webkit-box-shadow: 0px 8px 20px 6px black;
+    height: 575px;
+    max-width: 98%;
+    min-width: 98%;
+  }
+  .my-schadual {
+  padding-top: 20px;
+   text-align: center;
+   
+  }
+  
+  .services {
+  padding-top: 20px;
+   text-align: center;
+  }
+  table {
+      border-collapse: collapse;
+      width: 100%;
+   
+  }
+  
+  th, td {
+      text-align: center;
+      padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}
+  
+  th {
+      background-color: #0563af;
+      color: white;
+  }
+  .myt ,.myt2{
+    overflow-y: scroll;
+    height: 240px;
+    margin: 3px;
+  }
+  
+  .myt th ,.myt2 th{
+      position: sticky;
+     top: 0;
+  }
+  
+  label
+  {
+    display:inline;
+    padding-top: 50px;
+    margin: 10px;
+  background: none;
+  outline: none;
+  border: none;
+  line-height: 1;
+  font-weight: 200;
+  font-size: 1.1rem;
+  color: #333;
+  
+  }
+  input
+  {
+    
+    border: none;
+    background-color: white;
+     display:inline;
+      padding-top: 5px;
+    margin: 10px;
+    background: none;
+    outline: none;
+    font-weight: 200;
+    font-size: 1.1rem;
+  }
+   @media (max-width: 580px) {
+ body{
+  background-color: black;
+  overflow-y:auto;
+ overflow-x:  hidden;
+
+ }
+ label{
+     display:inline-block;
+        padding: 0;
+
+ }
+  
+  .doc{
+      display: inline-block;
+   
+  }
+ 
+  .container table thead {
+    display: none;
+    
+  }
+.container myt ,.myt2{
+    overflow-y: scroll;
+    height: 200px;
+    margin: 3px;
+  }
+  
+  .container myt th ,.myt2 th{
+      position: sticky;
+     top: 0;
+  }
+  .container table td {
+  }
+
+  .container table td::before {
+    content: attr(data-heading) ": ";
+    font-weight: bold;
+  }
+}
